@@ -8,3 +8,8 @@ This is block of encoder:
 
 Total params: 3,220,976; Trainable params: 3,220,976; Non-trainable params: 0.
 
+The codec uses several blocks:  
+  --Conv1D (Applies a 1D convolution over an input signal composed of several input planes.)  
+  --Elu (Applies the Exponential Linear Unit (ELU) function, element-wise, as described in the paper: Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs). https://pytorch.org/docs/stable/generated/torch.nn.ELU.html)  
+  --LSTM (Applies a multi-layer long short-term memory (LSTM) RNN to an input sequence. https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)  
+  
