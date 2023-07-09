@@ -19,4 +19,4 @@ The encodec uses several blocks:
 
 Also used in the codec "Residual neural network" https://en.wikipedia.org/wiki/Residual_neural_network.  
 
-
+This encoder compresses the signal by 2.5 times, we hand over array length 320, and get on out 128.
