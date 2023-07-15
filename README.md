@@ -23,4 +23,7 @@ This encoder compresses the signal by 2.5 times, we hand over array length 320, 
 
 Compression speed on processors does't allow processing of high-speed signals, therefor we have to find other system, 
 other system is FPGA's. Field-programmable gate array, FPGA https://en.wikipedia.org/wiki/Field-programmable_gate_array.
+Block of Conv1D unit we can present in the following form:
+
+
 
